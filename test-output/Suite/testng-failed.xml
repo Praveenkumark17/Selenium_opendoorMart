@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="invalid" value="invalid-email"/>
+  <parameter name="email" value="user@example.com"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.TestNG.TS_005">
+        <methods>
+          <include name="afterTestCase"/>
+          <include name="browseropen"/>
+          <include name="TC_021"/>
+          <include name="TC_020"/>
+          <include name="TC_023"/>
+          <include name="beforeTestCase"/>
+        </methods>
+      </class> <!-- org.TestNG.TS_005 -->
+      <class name="org.TestNG.TS_002">
+        <methods>
+          <include name="browseropen"/>
+          <include name="beforeTestCase"/>
+          <include name="afterTestCase"/>
+          <include name="TC_007"/>
+        </methods>
+      </class> <!-- org.TestNG.TS_002 -->
+      <class name="org.TestNG.TS_004">
+        <methods>
+          <include name="browseropen"/>
+          <include name="TC_016"/>
+          <include name="beforeTestCase"/>
+          <include name="afterTestCase"/>
+        </methods>
+      </class> <!-- org.TestNG.TS_004 -->
+      <class name="org.TestNG.TS_003">
+        <methods>
+          <include name="browseropen"/>
+          <include name="TC_013"/>
+          <include name="beforeTestCase"/>
+          <include name="afterTestCase"/>
+        </methods>
+      </class> <!-- org.TestNG.TS_003 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="email" value="user@example.com"></parameter>
+	<parameter name="invalid" value="invalid-email"></parameter>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="org.TestNG.TS_001" />
+			<class name="org.TestNG.TS_002" />
+			<class name="org.TestNG.TS_003" />
+			<class name="org.TestNG.TS_004" />
+			<class name="org.TestNG.TS_005" />
+			<class name="org.TestNG.TS_006" />
+			<class name="org.TestNG.TS_007" />
+			<class name="org.TestNG.TS_008" />
+			<class name="org.TestNG.TS_009" />
+			<class name="org.TestNG.TS_010" />
+			<class name="org.TestNG.TS_011" />
+			<class name="org.TestNG.TS_012" />
+			<class name="org.TestNG.TS_013" />
+			<class name="org.TestNG.TS_014" />
+			<class name="org.TestNG.TS_015" />
+			<class name="org.TestNG.TS_016" />
+			<class name="org.TestNG.TS_017" />
+			<class name="org.TestNG.TS_018" />
+			<class name="org.TestNG.TS_019" />
+			<class name="org.TestNG.TS_020" />
+			<class name="org.TestNG.TS_021" />
+			<class name="org.TestNG.TS_022" />
+			<class name="org.TestNG.TS_023" />
+			<class name="org.TestNG.TS_024" />
+			<class name="org.TestNG.TS_025" />
+			<class name="org.TestNG.TS_026" />
+			<class name="org.TestNG.TS_027" />
+			<class name="org.TestNG.TS_028" />
+			<class name="org.TestNG.TS_029" />
+			<class name="org.TestNG.TS_030" />
+			<class name="org.TestNG.TS_031" />
+			<class name="org.TestNG.TS_032" />
+			<class name="org.TestNG.TS_033" />
+			<class name="org.TestNG.TS_035" />
+			<class name="org.TestNG.TS_038" />
+			<class name="org.TestNG.TS_040" />
+			<class name="org.TestNG.TS_043" />
+			<class name="org.TestNG.TS_046" />
+			<class name="org.TestNG.TS_049" />
+			<class name="org.TestNG.TS_052" />
+			<class name="org.TestNG.TS_055" />
+			<class name="org.TestNG.TS_058" />
+			<class name="org.TestNG.TS_061" />
+			<class name="org.TestNG.TS_064" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
